@@ -12,6 +12,10 @@ On Ultrascale+ FPGA, we leverage IDELAY3 to introduce appropriate delay, which h
 
  <div align=center><img src="images/code_density_zynq.png" width="100%" height="100%"/></div>
 
+We have tested respective results under different clock frequencies.  Results are displayed under the following table:
+ <div align=center><img src="images/zynq_diff_clock.png" width="100%" height="100%"/></div>
+
+
 
 
 
