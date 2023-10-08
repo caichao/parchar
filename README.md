@@ -15,6 +15,7 @@ We have specially test our architecture on three different platforms, including 
 The code density test results under 400MHz clock is shown in the following figure (without any calibration efforts).
 
  <div align=center><img src="images/code_density_zynq.png" width="100%" height="100%"/></div>
+In this fiugre, New. stru. means results for our new TDC architecture. Conv. stru. stands for conventional TDC design where we cascade a series of carry units in a single long chain. 
 
 We have tested respective results under different clock frequencies.  Results are displayed under the following table:
  <div align=center><img src="images/zynq_diff_clock.png" width="100%" height="100%"/></div>
@@ -22,7 +23,7 @@ We have tested respective results under different clock frequencies.  Results ar
 (2) On 28nm Kintex-7 FPGA, the chain resource becomes CARRY4 and IDELAY2. The specific structure implemented in this FPGA is shown in the following figure:
  <div align=center><img src="images/k7_architecture.png" width="80%" height="80%"/></div>
 
-The code density test results are:
+The code density test results under a 400MHz clock frequency are:
  <div align=center><img src="images/code_density_k7.png" width="100%" height="100%"/></div>
 
 results under different clock frequencies:
