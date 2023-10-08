@@ -38,6 +38,7 @@ It should be noted that the IOE unit on Intel FPGA is locked to GPIOs. Therefore
 
 The code density results under 350MHz clock frequency are:
  <div align=center><img src="images/code_density_max10.png" width="100%" height="100%"/></div>
+We report no results over 350MHz due to the timing issue. 
 
 
 
